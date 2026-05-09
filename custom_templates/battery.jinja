@@ -1,0 +1,14 @@
+{% macro lipo_percentage(entity_id) %}
+  {% set v_min = 3.0 %}
+  {% set v_max = 4.2 %}
+  {% set val = states(entity_id) %}
+
+  {# Ensure the state is a valid number to prevent log errors #}
+  {% if is_number(val) %}
+    {% set voltage = val | float %}
+    {% set pct = ((voltage - v_min) / (v_max - v_min) * 100) | round(0) %}
+    {{ [[0, pct] | max, 100] | min }}
+  {% else %}
+    {{ none }}
+  {% endif %}
+{% endmacro %}

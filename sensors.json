@@ -16,18 +16,6 @@
         "name": "Drawing Room"
     },
     {
-        "topic": "gc-bathroom",
-        "name": "Garden Cottage Bathroom"
-    },
-    {
-        "topic": "gc-bedroom",
-        "name": "Garden Cottage Bedroom"
-    },
-    {
-        "topic": "gc-living-room",
-        "name": "Garden Cottage Living Room"
-    },
-    {
         "topic": "livingroom-ka",
         "name": "Living Room (K&A)"
     },
@@ -38,10 +26,6 @@
     {
         "topic": "laundry",
         "name": "Laundry Room"
-    },
-    {
-        "topic": "greenhouse",
-        "name": "Greenhouse"
     },
     {
         "topic": "pip",
@@ -74,5 +58,13 @@
     {
         "topic": "attic/office",
         "name": "Attic Office"
+    },
+    {
+        "topic": "attic/bedroom/kitty",
+        "name": "Attic Bedroom (Kitty)"
+    },
+    {
+        "topic": "attic/bedroom/nicholas",
+        "name": "Attic Bedroom (Nicholas)"
     }
 ]
